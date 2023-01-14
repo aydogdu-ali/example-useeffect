@@ -15,18 +15,23 @@
 
 .users {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 2fr));
+  gap: 1rem;
   margin: 3rem auto;
 }
 .users li {
-  width: 100%;
+  width: 60%;
   display: flex;
   align-items: center;
-  background: var(--clr-white);
-  padding: 1rem 2rem;
-  border-radius: var(--radius);
-  text-align: left;
+  background: rgb(106, 128, 187);
+   text-align: left;
+  margin:1.9rem 0.9rem;
+  padding: 0.6rem;
+ 
+}
+
+.users :hover{
+  transform:translate(-10px)
 }
 .users img {
   width: 50px;
@@ -38,7 +43,8 @@
   margin-bottom: 0.15rem;
 }
 .users a {
-  color: var(--clr-grey-5);
-  text-transform: capitalize;
+  color: rgb(197, 245, 4);
+  text-decoration: none;
+  font-weight: 600;
 }
 
