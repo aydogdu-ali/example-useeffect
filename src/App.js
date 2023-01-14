@@ -6,16 +6,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <UseEffectExample />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+       
         <a
           className="App-link"
           href="https://tr.reactjs.org/docs/hooks-reference.html#useeffect"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          React Resmi Web Sayfası
         </a>
       </header>
     </div>
